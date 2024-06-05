@@ -1,0 +1,145 @@
+Rebuilding cache, please wait ... (written to file) done.
+
+---------------------------------- Compilers -----------------------------------
+   gcc/6.1.0  (D)    intel/16.0.3 (m)      intel/20.2 (m)
+   gcc/8.2.0         intel/17.0.0 (m)      pgi/16.5
+   gcc/10.2.0        intel/17.4   (m,D)    pgi/18.4   (D)
+
+--------------------------- Independent Applications ---------------------------
+   R/3.3.0                          jdk/18.0.1.1         (D)
+   R/3.4.3                          julia/0.6.2
+   R/3.5.0                          julia/1.6.0
+   R/4.0.4                          julia/1.6.6
+   R/4.4.0                 (D)      julia/1.8.1
+   allinea/6.0.4           (m)      julia/1.9.4
+   anaconda/2020.11        (D)      julia/1.10.2         (D)
+   anaconda/2022.10                 loadbalance/0.1
+   anaconda/2023.09                 loadbalance/0.2      (D)
+   apptainer/1.1.0                  mambaforge/23.1.0-1
+   arm-forge/19.1.3        (m)      mathematica/9.0
+   autotools/2.69                   mathematica/11.1.0   (D)
+   autotools/2.71          (D)      matlab/R2016b
+   chimerax/1.2.5                   matlab/R2017b
+   cmake/3.5.2                      matlab/R2018b        (D)
+   cmake/3.9.2                      matlab/R2019b
+   cmake/3.14.1                     matlab/R2020b
+   cmake/3.20.0                     matlab/R2021b
+   cmake/3.20.2                     maven/3.8.1
+   cmake/3.25.0            (D)      ncl/6.3.0
+   cube/3.4.3                       ncl/6.6.2            (D)
+   cube/4.3.4              (D)      papi/5.4.3
+   cuda/7.5.18             (g)      papi/5.5.1           (D)
+   cuda/8.0.61             (g)      paraview/5.0.1
+   cuda/9.0.176            (g)      paraview/5.6.0
+   cuda/9.1.85             (g,D)    paraview/5.9.0
+   cuda/10.1               (g)      paraview/5.10.0      (D)
+   cuda/10.2               (g)      pdtoolkit/3.22
+   cuda/11.2               (g)      pdtoolkit/3.25.1     (D)
+   cuda/11.3               (g)      perl/5.24.0          (D)
+   cuda/11.4               (g)      perl/5.28.1
+   cuda/11.7               (g)      pigz/2.7
+   cuda/11.8               (g)      python/2.7.11        (D)
+   cuda/12.1.1             (g)      python/2.7.14
+   cudnn/4.0               (g)      python/3.5.1
+   cudnn/5.1               (g)      python/3.6.5
+   cudnn/6.0               (g)      python/3.8.0
+   cudnn/7.1               (g)      qchem/4010
+   cudnn/7.6               (g)      qt/4.8.5
+   cudnn/8.1_for_cuda_11.2 (g)      qt/5.6.0
+   cudnn/8.1               (g)      qt/5.9.1
+   cudnn/8.2_for_cuda_11.4 (g)      qt/5.15              (D)
+   cudnn/8.2               (g)      rclone/1.58.0
+   cudnn/8.6               (g,D)    ruby/2.3.1
+   dmtcp/2.6.0                      ruby/3.0.0           (D)
+   eigen/3.4.0                      singularity/3.6.4    (D)
+   emacs/25.3                       singularity/3.7.4
+   emacs/27.2              (D)      slurmtools/0.0.1
+   evince/3.28.2                    subversion/1.8.16
+   expat/2.1.1                      subversion/1.10.2
+   expat/2.3.0             (D)      subversion/1.14.1    (D)
+   ffmpeg/4.4                       tcltk/8.6.5
+   gdb/8.1                          tcltk/8.6.11         (D)
+   gdb/10.1                (D)      tdom/0.8.3
+   git/2.8.3                        tdom/0.9.2           (D)
+   git/2.23.0                       texlive/2021
+   git/2.31.0              (D)      totalview/2016.06.21
+   git-lfs/3.1.2                    udunits/2.2.20
+   gmsh/2.16.0                      udunits/2.2.24
+   gmsh/4.11.1             (D)      udunits/2.2.25
+   gnu_parallel/20160622            udunits/2.2.28       (D)
+   gnu_parallel/20210322   (D)      valgrind/3.11.0
+   gnuplot/5.4.1                    valgrind/3.17.0      (D)
+   idl/8.7                          vapor/3.3.0
+   imagemagick/6.9.12               vapor/3.4.0          (D)
+   jdk/1.7.0                        vmd/1.9.3
+   jdk/1.8.0_91                     vtf3/1.43
+   jdk/1.8.0_281                    zip/rhel7
+   jdk/1.8.0
+
+---------------------------- Lmod Internal Modules -----------------------------
+   StdEnv    curc-quota    lmod/6.3.7    settarg/6.3.7
+
+--------------------------------- CU Licensed ----------------------------------
+   CST/2021                         ams/2024.101                   (D)
+   CST/2022                  (D)    ansys/AnsysEM21.2
+   abaqus/slurm-15215281.out        coreform/Coreform-Cubit-2021.5
+   abaqus/V6R2019x           (D)    gaussian/16_avx2
+   ams/2023.101                     trelis/16.3.6
+
+  Where:
+   D:  Default Module
+   g:  built for GPU
+   m:  built for host and native MIC
+
+Use "module spider" to find all possible modules.
+Use "module keyword key1 key2 ..." to search for all possible modules matching
+any of the "keys".
+
+LICENSE: Could not open license file "oe_license.txt" in local directory
+LICENSE: N.B. OE_LICENSE environment variable is not set
+LICENSE: N.B. OE_DIR environment variable is not set
+LICENSE: No product keys!
+LICENSE: No product keys!
+LICENSE: No product keys!
+LICENSE: No product keys!
+INFO:distributed.http.proxy:To route to workers diagnostics web server please install jupyter-server-proxy: python -m pip install jupyter-server-proxy
+INFO:distributed.scheduler:State start
+INFO:distributed.scheduler:  Scheduler at: inproc://10.225.8.167/29950/1
+INFO:distributed.scheduler:  dashboard at:  http://10.225.8.167:8787/status
+INFO:distributed.scheduler:Registering Worker plugin shuffle
+INFO:distributed.worker:      Start worker at: inproc://10.225.8.167/29950/4
+INFO:distributed.worker:         Listening to:         inproc10.225.8.167
+INFO:distributed.worker:          Worker name:                          0
+INFO:distributed.worker:         dashboard at:         10.225.8.167:36803
+INFO:distributed.worker:Waiting to connect to: inproc://10.225.8.167/29950/1
+INFO:distributed.worker:-------------------------------------------------
+INFO:distributed.worker:              Threads:                          1
+INFO:distributed.worker:               Memory:                  32.00 GiB
+INFO:distributed.worker:      Local Directory: /tmp/dask-scratch-space/worker-dlt3_n2v
+INFO:distributed.worker:-------------------------------------------------
+INFO:distributed.scheduler:Register worker <WorkerState 'inproc://10.225.8.167/29950/4', name: 0, status: init, memory: 0, processing: 0>
+INFO:distributed.scheduler:Starting worker compute stream, inproc://10.225.8.167/29950/4
+INFO:distributed.core:Starting established connection to inproc://10.225.8.167/29950/5
+INFO:distributed.worker:Starting Worker plugin shuffle
+INFO:distributed.worker:        Registered to: inproc://10.225.8.167/29950/1
+INFO:distributed.worker:-------------------------------------------------
+INFO:distributed.core:Starting established connection to inproc://10.225.8.167/29950/1
+INFO:distributed.scheduler:Receive client connection: Client-e467a165-2296-11ef-b4fe-e8ebd308b22e
+INFO:distributed.core:Starting established connection to inproc://10.225.8.167/29950/6
+Length of data set after filtering =  4
+INFO:distributed.scheduler:Remove client Client-e467a165-2296-11ef-b4fe-e8ebd308b22e
+INFO:distributed.core:Received 'close-stream' from inproc://10.225.8.167/29950/6; closing.
+INFO:distributed.scheduler:Remove client Client-e467a165-2296-11ef-b4fe-e8ebd308b22e
+INFO:distributed.scheduler:Close client connection: Client-e467a165-2296-11ef-b4fe-e8ebd308b22e
+INFO:distributed.worker:Stopping worker at inproc://10.225.8.167/29950/4. Reason: worker-close
+INFO:distributed.core:Received 'close-stream' from inproc://10.225.8.167/29950/5; closing.
+INFO:distributed.scheduler:Remove worker <WorkerState 'inproc://10.225.8.167/29950/4', name: 0, status: closing, memory: 0, processing: 0> (stimulus_id='handle-worker-cleanup-1717521724.6703155')
+INFO:distributed.scheduler:Lost all workers
+INFO:distributed.core:Connection to inproc://10.225.8.167/29950/1 has been closed.
+INFO:distributed.scheduler:Scheduler closing due to unknown reason...
+INFO:distributed.scheduler:Scheduler closing all comms
+{
+  "@type": "openff.evaluator.datasets.datasets.PhysicalPropertyDataSet",
+  "properties": []
+}
+It finished
