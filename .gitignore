@@ -2,3 +2,4 @@
 python-tests/
 evaluator-blanca-cluster/working-data/
 evaluator-blanca-cluster/stored_data/
+evaluator-blanca-cluster/*_ignore.py
