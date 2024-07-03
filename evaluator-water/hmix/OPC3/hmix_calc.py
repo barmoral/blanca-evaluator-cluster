@@ -100,7 +100,7 @@ from openff.evaluator.client import EvaluatorClient
 from openff.evaluator.client import ConnectionOptions
 
 ### define client to submit queries
-port = 8119
+port = 8118
 evaluator_client = EvaluatorClient(ConnectionOptions(server_port=port))
 
 ### define available / preferred resources
