@@ -126,5 +126,51 @@ with DaskLocalCluster(number_of_workers=1, resources_per_worker=resources) as ca
     a = results.estimated_properties.json("estimated_dataset_hmix.json", format=True)
     print(a)
 
-    # 3) Analysing data sets
-    
+
+# 3) Analysing data sets
+
+##  Loading the data sets
+experimental_data_set_path = "filtered_dataset_hmix.json"
+estimated_data_set_path = "estimated_dataset_hmix.json"
+
+experimental_data_set = PhysicalPropertyDataSet.from_json(experimental_data_set_path)
+estimated_data_set = PhysicalPropertyDataSet.from_json(estimated_data_set_path)
+
+## Extracting the results
+properties_by_type = {
+    "EnthalpyOfMixing": []
+}
+
+for experimental_property in experimental_data_set:
+
+    ### Find the estimated property which has the same id as the
+    ### experimental property.
+    estimated_property = next(
+        x for x in estimated_data_set if x.id == experimental_property.id
+    )
+
+    ### Add this pair of properties to the list of pairs
+    property_type = experimental_property.__class__.__name__
+    properties_by_type[property_type].append((experimental_property, estimated_property))
+
+## Plotting the results
+
+import matplotlib.pyplot as plt
+
+preferred_units = {
+    "EnthalpyOfMixing": unit.kilojoule / unit.mole
+}
+
+for experimental_property, estimated_property in properties_by_type[property_type]:
+    experimental_values.append(
+        experimental_property.value.to(preferred_unit).magnitude
+    )
+    estimated_values.append(
+        estimated_property.value.to(preferred_unit).magnitude
+    )
+
+plt.plot(estimated_values, experimental_values, marker='x', linestyle='None')
+plt.xlabel('OpenFF 2.0.0')
+plt.ylabel('Experimental')
+plt.title('$H_{mix}$ $kJ mol^{-1}$')
+plt.savefig('expvsest_plot.png')
