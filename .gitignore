@@ -1,6 +1,4 @@
 python-tests/
-evaluator-blanca-cluster/working-data/
-evaluator-blanca-cluster/stored_data/
 evaluator-blanca-cluster/*_ignore.py
-evaluator-water/*/working-data/
-evaluator-water/*/stored_data/
+working-data/
+stored_data/
