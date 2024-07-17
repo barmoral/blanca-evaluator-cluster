@@ -1,4 +1,3 @@
-
 """
 Evaluator workflow to Load and Filter Data Sets, Estimate Data Sets, Analyze Data Sets
 Applied to calculations of Heats of Mixing.
