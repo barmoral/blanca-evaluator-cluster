@@ -1,8 +1,8 @@
 #!/bin/bash
 
 #SBATCH --nodes=1
-#SBATCH --ntasks-per-node=16
-#SBATCH --time=20:00:00
+#SBATCH --ntasks-per-node=32
+#SBATCH --time=30:00:00
 #SBATCH --partition=blanca-shirts
 #SBATCH --qos=blanca-shirts
 #SBATCH --account=blanca-shirts
