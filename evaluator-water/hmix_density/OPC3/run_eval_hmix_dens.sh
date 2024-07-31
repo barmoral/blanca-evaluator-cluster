@@ -2,7 +2,7 @@
 
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
-#SBATCH --time=30:00:00
+#SBATCH --time=50:00:00
 #SBATCH --partition=blanca-shirts
 #SBATCH --qos=blanca-shirts
 #SBATCH --account=blanca-shirts
